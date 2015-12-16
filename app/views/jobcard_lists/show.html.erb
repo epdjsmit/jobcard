@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @jobcard_list.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @jobcard_list.Description %>
+</p>
+
+<%= link_to 'Edit', edit_jobcard_list_path(@jobcard_list) %> |
+<%= link_to 'Back', jobcard_lists_path %>
+
